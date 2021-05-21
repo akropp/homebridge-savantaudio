@@ -1,0 +1,17 @@
+{
+  "name": "homebridge-savantaudio",
+  "version": "1.0.0",
+  "description": "Control Savant SSA-3220",
+  "main": "index.js",
+  "dependencies": {
+      "telnet-client": "^1.4.2",
+	"async-mutex": ">=0.2.2"
+  },
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "engines": {
+    "homebridge": ">=0.2.0",
+    "node": ">=0.12.0"
+  }
+}
